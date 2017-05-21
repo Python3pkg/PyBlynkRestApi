@@ -95,7 +95,7 @@ class TCP_Client(object):
                     # print('rx-timeout')
                     return ''
                 except Exception as e:
-                    print('rx exception', str(e))
+                    print(('rx exception', str(e)))
                     self.connected = False
                     return ''
                 if not r:

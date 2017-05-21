@@ -10,7 +10,7 @@ class TestGetTimeInput(TestBase):
         while True:
             try:
                 pin_value = self.blynk.get_pin_value('V13')
-                print("Pin V13: {}".format(pin_value))
+                print(("Pin V13: {}".format(pin_value)))
 
 
             except Exception as exc:

@@ -10,7 +10,7 @@ class TestSetGraph(TestBase):
         while True:
             try:
                 value = random.randint(0,1000)
-                print("Graph: {}".format(value))
+                print(("Graph: {}".format(value)))
                 self.blynk.set_pin_value('V7', value)
             except:
                 print("Exception")

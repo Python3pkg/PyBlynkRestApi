@@ -4,13 +4,13 @@ import unittest
 
 
 def pin_v1_handler(value, pin_number, blynk):
-    print("READ {} value: {}".format(pin_number, value))
+    print(("READ {} value: {}".format(pin_number, value)))
 
 v9_counter = 0
 def pin_v9_handler( pin_number, blynk):
     global v9_counter
     v9_counter += 1
-    print("SET {} value: {}".format(pin_number, v9_counter))
+    print(("SET {} value: {}".format(pin_number, v9_counter)))
     return v9_counter
 
 v4_counter = 0

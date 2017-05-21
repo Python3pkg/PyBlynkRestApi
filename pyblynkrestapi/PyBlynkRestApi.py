@@ -1,5 +1,5 @@
 import requests
-from pyblynkrestapi.BlynkClient import TCP_Client
+from .pyblynkrestapi.BlynkClient import TCP_Client
 import threading
 import collections
 import json
